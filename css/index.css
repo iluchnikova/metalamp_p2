@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+}
+
+input[type="text"]{
+    width: 200px;
+    padding: 0.5em;
+    border:none
+}
+
+input[type="submit"]{
+    position: absolute;
+    top: 0.3em;
+    right: 0.5em;
+    border:none;
+    background-color: transparent;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+main{
+    flex-grow: 1;
+}
+
+.copyright{
+    border-top: 1px solid rgba(31, 32, 65, 0.5);
+}
+
+.copyright .text-block{
+    max-width: unset;
+}
+
+.email-form{
+    position: relative;
+    display: inline-flex;
+    border: 1px solid black;
+    min-height: 2em;
+}
+
+.footer-block{
+    display: flex;
+    flex-direction: column;
+    color: rgba(31, 32, 65, 0.75);
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    font-style: normal;
+    flex-shrink: 0; 
+    line-height: 24px;
+    max-width: 20%;
+}
+
+.footer-block h3{
+    color: #1F2041;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.footer-block a{
+    color: rgba(31, 32, 65, 0.5);
+    line-height: 17px;
+    text-decoration: none;
+    margin-top: 0.5em;
+}
+
+.horizontal{
+    display: flex;
+    justify-content:space-between;
+}
+
+.horizontal section{
+    flex-basis: auto;
+    flex-grow: inherit;
+    padding: 1em 3em 1em 3em;
+}
+
+.inline{
+    flex-direction: row;
+}
+
+.inline a{
+    margin-right: 1em;
+}
+
+.text-block{
+    color: rgba(31, 32, 65, 0.75);
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    font-style: normal;    
+    line-height: 24px;
+    white-space: pre-wrap;
+}
